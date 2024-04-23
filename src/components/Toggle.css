@@ -1,0 +1,29 @@
+.toggle {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  height: 450px;
+  width: 450px;
+  border: 2px solid rgb(18, 221, 170);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main:hover {
+  box-shadow: 1px 3px 9px 7px;
+}
+button {
+  /* padding: 10px; */
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: aqua;
+  border: none;
+}
+button:hover {
+  background-color: rgb(31, 145, 145);
+}
